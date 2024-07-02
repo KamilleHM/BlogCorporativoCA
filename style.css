@@ -33,13 +33,13 @@ main{
 
 hr{
     height: 3.5rem;
-    background-color: #D4AF37;
+    background-color: #146d0c;
 }
 
 nav{
     position: fixed;
     padding: 1%;
-    background-color: #ce9b6e;
+    background-color: #8b6544;
     width: 100%;
     height: 5rem;
     text-align: center;
@@ -50,7 +50,7 @@ nav a {
   }
 
 h1{
-    color: #FFFFFF;
+    color: #8b6544;
     font-size: 8.2rem;
     font-weight: 900;
     text-align: center;
@@ -59,25 +59,25 @@ h1{
 h2{
     color: #FFFFFF;
     font-size: 2.8rem;
-    background-color: #D4AF37;
+    background-color: #146d0c;
     margin-top: 20px;
 }
 
 h3{
     margin-top: 2%;
-    color: #266e29;
+    color: #135014;
 }
 
 a{
-    color: #266e29;
+    color: #eca10afb;
 }
 
 a:visited{
-    color:  rgb(232, 232, 47);
+    color: #FFFFFF;
 }
 
 a:hover{
-    color: #e7c554;
+    color: #a68160;
 }
 
 p{
@@ -128,8 +128,8 @@ p{
     background-position: bottom;
 } 
 
-.firstp{
-    color: #266e29;
+p{
+    color: #7e6047;
 }
 
 .infografico {
@@ -203,12 +203,12 @@ p{
 }
 
 .prod1{
-   color: #d87524; 
+   color: #e07c2a; 
    font-weight: 600;
 }
 
 .prod2{
-    color: plum;
+    color: rgb(95, 9, 95);
     font-weight: 600;
 }
 
@@ -267,8 +267,8 @@ footer{
 }
 
 footer:hover{
-    background-color: #ce9b6e; 
-    color: #266e29;
+    background-color: #266e29; 
+    color: #694b30;
     font-weight: bolder;
 }
 
@@ -288,7 +288,7 @@ footer:hover{
 }
 
 .noticia {
-    background: #fff;
+    background: #FFFFFF;
     border: 1px solid #ddd;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -317,7 +317,7 @@ footer:hover{
     display: inline-block;
     padding: 10px 20px;
     background-color: #266e29;
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -352,8 +352,8 @@ list-style-position: inside;
 #videos h2,
 #faq h2 {
     font-size: 3rem;
-    background-color: #D4AF37;
-    color: #ffffff;
+    background-color: #146d0c;
+    color: #FFFFFF;
     padding: 1rem;
     margin-top: 4rem;
 }
@@ -401,9 +401,9 @@ list-style-position: inside;
 
 
 .h2-background {
-    background-color: #cfbd9a46; /* Cor de fundo mais clara */
+    background-color: #cfbd9a46 ; /* Cor de fundo mais clara */
     padding: 10px; /* Espaçamento interno */
-    margin: -10px 0; /* Espaçamento externo */
+    margin: -1px 0; /* Espaçamento externo */
     border-radius: 5px;
 }
 
@@ -423,7 +423,7 @@ strong, cite{
 }
 
 #social-links a{
-    color: goldenrod;
+    color: #694b30;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,12 +433,12 @@ strong, cite{
 }
 
 #social-links a:hover{
-    background-color: rgba(255, 217, 0, 0.145); 
-}
+    background-color: #a68160; 
+} 
 
 
 .bgcontato{
-    background-color: #da991723; /* Cor de fundo mais clara */
+    background-color: #cfbd9a46; /* Cor de fundo mais clara */
     padding: 10px; /* Espaçamento interno */
     margin: 15px 0; /* Espaçamento externo */
     border-radius: 5px;
