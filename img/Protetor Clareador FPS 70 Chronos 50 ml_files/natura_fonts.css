@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto_regular.eot');
+    src: url('roboto_regular.eot?#iefix') format('embedded-opentype'),
+        url('roboto_regular.woff2') format('woff2'),
+        url('roboto_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto_medium.eot');
+    src: url('roboto_medium.eot?#iefix') format('embedded-opentype'),
+        url('roboto_medium.woff2') format('woff2'),
+        url('roboto_medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,463 @@
+
+/* Paleta de Cores - Só uma base
+:root {
+    --verde-natura: #4CAF50;
+    --marrom-natura: #795548;
+    --bege-natura: #F5F5DC;
+    --branco-natura: #FFFFFF;
+    --dourado-natura: #D4AF37;
+}*/
+
+*{
+    margin: 0; /*Distância da imagem/texto até a borda da pagina*/
+    padding: 0; /*Distância da imagem/texto até a borda da div por exemplo*/
+    box-sizing: border-box; /*Impede que o padding mude o tamaho da caixa/ preserva  as dimensões da caixa e pode dar um padding nela */
+}
+
+:root{ /*se equipara à raiz de uma árvore, que por sua vez representa o documento. Aplicado ao HTML, :root representa o elemento <html> e é idêntico ao seletor html*/
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #e3dac9;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    text-indent: 2%;
+    width: 100%;
+}
+
+main{
+    padding-top: 5rem;
+    text-align: justify;
+}
+
+hr{
+    height: 3.5rem;
+    background-color: #D4AF37;
+}
+
+nav{
+    position: fixed;
+    padding: 1%;
+    background-color: #ce9b6e;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+
+nav a {
+    margin-right: 10%;
+  }
+
+h1{
+    color: #FFFFFF;
+    font-size: 8.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 2.8rem;
+    background-color: #D4AF37;
+    margin-top: 20px;
+}
+
+h3{
+    margin-top: 2%;
+    color: #266e29;
+}
+
+a{
+    color: #266e29;
+}
+
+a:visited{
+    color:  rgb(232, 232, 47);
+}
+
+a:hover{
+    color: #e7c554;
+}
+
+p{
+    text-align: justify;
+    text-indent: 3%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+.bg{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/capa10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.backg{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/capa9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.bge{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/capa11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} 
+
+.bgrd{
+    height: 50rem;
+    width: 100%;
+    background-image: url(img/capa1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+} 
+
+.firstp{
+    color: #266e29;
+}
+
+.infografico {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.infografico-imagem {
+    max-width: 30%;
+    max-height: 10%;
+    border-radius: 8px;
+}
+
+.infograficocontato {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.infograficocontato-imagem {
+    max-width: 60%;
+    max-height: 10%;
+    border-radius: 8px;
+}
+
+.imgm{
+ height: 25rem;
+ width: 25rem;
+ border-radius: 10%;
+}
+
+.imgm:hover{
+    border-radius: 0%;
+}
+
+.imagem1{
+    margin-bottom: 20px; /* Espaço inferior entre imagem e texto */
+    text-align: center; /* Centraliza a imagem */
+}
+
+.dp {
+    max-width: 95%;
+    height: auto;
+    border-radius: 50%; /* Para tornar a imagem redonda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.dp:hover{
+    /* animation: fadeInUp 50s ease-out; */
+    transform: scale(1.1);
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centraliza conteúdo verticalmente */
+    text-align: center; /* Centraliza texto horizontalmente */
+    margin-top: 20px; /* Espaço superior */
+}
+
+.perso{
+    margin: auto;    
+    margin: 2rem 2rem 0rem 0rem;
+    padding: 0.5%;
+}
+
+.produtos-container {
+    display: flex; /* Usando flexbox para layout flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 10px; /* Espaço entre as figuras */
+    margin: 0 -5px; /* Margem negativa para compensar a margem interna */
+}
+
+.prod1{
+   color: #d87524; 
+   font-weight: 600;
+}
+
+.prod2{
+    color: plum;
+    font-weight: 600;
+}
+
+.prod3{
+    color: #c45105;
+    font-weight: 600;
+}
+
+figure {
+    flex: 1; /* Cada figura ocupa o mesmo espaço */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza conteúdo dentro da figura */
+}
+
+.imag {
+    max-width: 100%; /* Imagem ocupa todo o espaço disponível */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+.imag:hover{
+    border-radius: 2%;
+}
+
+figcaption {
+    margin-top: 10px; /* Margem superior para a legenda */
+    font-style: italic; /* Estilo itálico para a legenda */
+}
+
+.produtos-container h2 {
+    margin-bottom: 20px; /* Espaçamento inferior para o título h2 */
+}
+
+figure{
+    border: thin #a68160 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.3%;
+    max-width: 26rem;
+    margin: auto;
+}
+
+figcaption{
+    background-color: #266e29;
+    color: #FFFFFF;
+    font: bolder smaller 'Courier New';
+    padding: 2%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+footer:hover{
+    background-color: #ce9b6e; 
+    color: #266e29;
+    font-weight: bolder;
+}
+
+.alterar{
+    text-align: center;
+}
+
+.novidades {
+    padding: 4rem;
+}
+
+.noticias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.noticia {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.noticia h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.noticia .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #266e29;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.noticia .btn-secondary:hover {
+    background-color: #266e28b9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+ul{
+list-style-position: inside;
+}
+
+.company-info,
+#sobre,
+#depoimentos,
+#historico,
+#videos,
+#faq {
+    margin-bottom: 4rem;
+}
+
+.company-info h2,
+#sobre h2,
+#depoimentos h2,
+#historico h2,
+#videos h2,
+#faq h2 {
+    font-size: 3rem;
+    background-color: #D4AF37;
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.company-info p,
+#sobre p,
+#depoimentos blockquote,
+#historico ul,
+#faq h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+#depoimentos blockquote {
+    font-style: italic;
+}
+
+#depoimentos cite {
+    font-weight: bold;
+}
+
+#historico ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#historico ul li {
+    margin-bottom: 1rem;
+}
+
+.pergunta {
+    margin-bottom: 3rem;
+}
+
+.pergunta h3 {
+    color: #266e29;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.pergunta p {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+
+.h2-background {
+    background-color: #cfbd9a46; /* Cor de fundo mais clara */
+    padding: 10px; /* Espaçamento interno */
+    margin: -10px 0; /* Espaçamento externo */
+    border-radius: 5px;
+}
+
+strong, cite{
+    color: #266e29;
+}
+
+.nome{
+    text-align: center;
+}
+
+#social-links{
+    display: flex;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
+}
+
+#social-links a{
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover{
+    background-color: rgba(255, 217, 0, 0.145); 
+}
+
+
+.bgcontato{
+    background-color: #da991723; /* Cor de fundo mais clara */
+    padding: 10px; /* Espaçamento interno */
+    margin: 15px 0; /* Espaçamento externo */
+    border-radius: 5px;
+}
+
+
+#ulfaleconosco{
+    list-style-type: none;
+}
+
+.ulcomunic{
+    list-style-type: square;
+    padding-bottom: 2%;
+}
+
+h4{
+    padding-top: 0.8%;
+}
+
+.h3fluxo{
+    padding-bottom: 1%;
+}
