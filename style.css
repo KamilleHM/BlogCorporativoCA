@@ -264,11 +264,12 @@ footer{
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    color: #8b6544;
 }
 
 footer:hover{
-    background-color: #266e29; 
-    color: #694b30;
+    background-color: #694b30; 
+    color: #FFFFFF;
     font-weight: bolder;
 }
 
@@ -334,6 +335,14 @@ footer:hover{
 
 ul{
 list-style-position: inside;
+}
+
+li{
+    color: #8b6544;
+}
+
+blockquote{
+    color: #8b6544;
 }
 
 .company-info,
