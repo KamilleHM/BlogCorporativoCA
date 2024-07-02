@@ -461,3 +461,35 @@ h4{
 .h3fluxo{
     padding-bottom: 1%;
 }
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    nav a {
+        margin-right: 5%;
+        font-size: 1.4rem;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .noticia {
+        width: 100%;
+    }
+
+    .infografico-imagem, .infograficocontato-imagem {
+        max-width: 100%;
+    }
+
+    iframe{
+        max-width: 100%;
+    }
+}
