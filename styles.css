@@ -136,3 +136,7 @@ main {
     width: 100%;
     padding: 12px;
   }
+
+  img{
+    border-radius: 5%;
+  }
