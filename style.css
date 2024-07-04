@@ -18,6 +18,11 @@
     font-size: 62.5%;
 }
 
+audio{
+    width: 9%;
+    /* position: fixed; */
+}
+
 body{
     background-color: #e3dac9;
     font-family:'Courier New', Courier, monospace;
